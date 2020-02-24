@@ -11,7 +11,7 @@ public class JDBCApp {
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		// TODO Auto-generated method stub
 	Class.forName("org.mariadb.jdbc.Driver");
-	String url = "jdbc:mariadb://localhost:1234/learningjdbc";
+	String url = "jdbc:mariadb://localhost:3306/jdbctest";
 	String username = "root";
 	String password = "root";
 	Connection conn = DriverManager.getConnection(url, username, password);
