@@ -10,7 +10,7 @@ import java.sql.SQLException;
 //	public class AbstractDAO {
 		
 	
-	private final String url = "jdbc:mariadb://localhost:1234/learningjdbc";
+	private final String url = "jdbc:mariadb://localhost:3306/jdbctest";
 	private final String user = "root";
 	private final String password = "root";
 	//private final Driver driver =  new org.mariadb.jdbc.Driver();
